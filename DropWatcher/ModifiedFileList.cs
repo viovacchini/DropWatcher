@@ -11,7 +11,7 @@ namespace DropWatcher
 	{
 		private const int MAX_BUFFER_SIZE = 5;
 		private const int CLEANUP_SIZE = 2;
-
+		// Comment
 		public bool ContainsModifiedFile( FileInfo fi )
 		{
 			return this.Any( 
